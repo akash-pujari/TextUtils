@@ -1,0 +1,66 @@
+.container {
+    max-width: 900px;
+    margin: 0px auto;
+    margin-bottom: 0px;
+}
+
+.container2 {
+    max-width: 900px;
+    margin: 0px auto;
+    padding: 0px;
+
+}
+
+.buttons button:hover {
+    background-color: green;
+}
+
+.container h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #222;
+}
+
+.container textarea {
+    width: 100%;
+    min-height: 250px;
+    padding: 15px;
+
+    font-size: 17px;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+
+    border: 1px solid #ddd;
+    border-radius: 10px;
+
+    resize: vertical;
+    outline: none;
+
+    box-sizing: border-box;
+    transition: 0.2s;
+}
+
+.container textarea:focus {
+    border-color: #198754;
+    box-shadow: 0 0 5px rgba(135, 82, 25, 0.2);
+}
+
+.container textarea::placeholder {
+    color: #999;
+}
+
+.buttons {
+    padding: 13px 35px;
+    display: flex;
+    gap: 16px;
+
+}
+
+.buttons button {
+    height: 39px;
+    border-radius: 4px;
+    background-color: #227b09;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
